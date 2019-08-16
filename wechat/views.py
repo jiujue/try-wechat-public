@@ -33,8 +33,9 @@ def wechat_auth(request):
 
 
     wechat_token = settings.WECHAT_TOKEN if settings.WECHAT_TOKEN != None else 'jiujue'
-    argument = [timestamp,nonce,wechat_token]
-    has1_res = hashlib.sha1( ''.join(   argument.sort()  ).encode()   ).hexdigest()
+    argument = [str(timestamp),str(nonce),str(wechat_token)]
+    argument.sort()
+    has1_res = hashlib.sha1(( ''.join(argument)  ).encode()   ).hexdigest()
 
     if has1_res == signature:
         return HttpResponse(echostr)
