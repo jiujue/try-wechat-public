@@ -26,6 +26,14 @@ def wechat_Autu(timestamp, nonce):
 
     return has1_res
 
+def test(request):
+    ''' dit path : /
+    test server
+    :param request:
+    :return: None
+    '''
+
+    return HttpResponse('<html><body><h1>It is work</h1></body></html>')
 
 def test(request):
     '''
