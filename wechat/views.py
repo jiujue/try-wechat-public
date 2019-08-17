@@ -86,20 +86,24 @@ def wechat(request):
           <MsgId>  1234567890123456   </MsgId>
         </xml>
         '''
-        response_dict =  dict()
+        if xml_dict['xml']['MsgType'] == 'text':
 
-        response_dict['xml']['ToUserName'] = xml_dict['xml']['FromUserName']
-        response_dict['xml']['FromUserName'] = xml_dict['xml']['ToUserName']
-        response_dict['xml']['CreateTime'] = int(time.time())
-        response_dict['xml']['Content'] = xml_dict['xml']['Content']
-        response_dict['xml']['MsgType'] = xml_dict['xml']['MsgType']
-        response_dict['xml']['MsgId'] = xml_dict['xml']['MsgId']
+            response_dict =  dict()
 
-        response_xml_str = xmltodict.unparse(response_dict)
+            response_dict['xml']['ToUserName'] = xml_dict['xml']['FromUserName']
+            response_dict['xml']['FromUserName'] = xml_dict['xml']['ToUserName']
+            response_dict['xml']['CreateTime'] = int(time.time())
+            response_dict['xml']['Content'] = xml_dict['xml']['Content']
+            response_dict['xml']['MsgType'] = xml_dict['xml']['MsgType']
+            response_dict['xml']['MsgId'] = xml_dict['xml']['MsgId']
 
-        print('response xml str:',response_xml_str)
+            response_xml_str = xmltodict.unparse(response_dict)
 
-        return HttpResponse(response_xml_str)
+            print('response xml str:',response_xml_str)
+
+            return HttpResponse(response_xml_str)
+        else:
+            return HttpResponse('success')
 
     else:
         return HttpResponse('illegal request mode ')
