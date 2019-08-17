@@ -70,8 +70,10 @@ def wechat(request):
 
     # nonauth request of wechat
     elif request.method == 'POST':
+        print('*'*10,'have post to connect---')
         xml_str = request.POST
         xml_dict = xmltodict.parse(xml_str)
+        print('request xml_dict:',xml_dict)
         if not xml_dict :
             return HttpResponse('success')
         '''message sample:
@@ -94,6 +96,8 @@ def wechat(request):
         response_dict['xml']['MsgId'] = xml_dict['xml']['MsgId']
 
         response_xml_str = xmltodict.unparse(response_dict)
+
+        print('response xml str:',response_xml_str)
 
         return HttpResponse(response_xml_str)
 
