@@ -33,20 +33,8 @@ def test(request):
     :return: None
     '''
 
-    return HttpResponse('<html><body><h1>It is work</h1></body></html>')
+    return HttpResponse('<html><body><h1 style="margin: 20px auto;color: gold;">It is work</h1></body></html>')
 
-def test(request):
-    '''
-    test server
-    :param request:
-    :return: None
-    '''
-
-    print(request.GET['name'])
-
-    wechat_token = settings.WECHAT_TOKEN
-
-    return HttpResponse(wechat_token + request.GET['name'])
 
 
 def wechat(request):
