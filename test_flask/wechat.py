@@ -8,11 +8,12 @@ import time
 import json
 
 
+
 # 常量
 # 微信的token令牌
 WECHAT_TOKEN = "itcast"
-# WECHAT_APPID = "wx36766f74dbfeef15"
-# WECHAT_APPSECRET = "aaf6dbca95a012895eb570f0ba549ee5"
+WECHAT_APPID = "wx5398bd02f534078e"
+WECHAT_APPSECRET = "cd02af74ba75c2d1e42381c13f2129bf"
 
 
 app = Flask(__name__)
@@ -68,6 +69,7 @@ def wechat():
             if msg_type == "text":
                 # 表示发送的是文本消息
                 # 构造返回值，经由微信服务器回复给用户的消息内容
+
                 resp_dict = {
                     "xml": {
                         "ToUserName": xml_dict.get("FromUserName"),
@@ -93,53 +95,53 @@ def wechat():
             # 返回消息数据给微信服务器
             return resp_xml_str
 
-
-# www.itcastcpp.cn/wechat8000/index
-@app.route("/wechat8000/index")
-def index():
-    """让用户通过微信访问的网页页面视图"""
-    # 从微信服务器中拿去用户的资料数据
-    # 1. 拿去code参数
-    code = request.args.get("code")
-
-    if not code:
-        return u"确实code参数"
-
-    # 2. 向微信服务器发送http请求，获取access_token
-    url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=%s&secret=%s&code=%s&grant_type=authorization_code" \
-          % (WECHAT_APPID, WECHAT_APPSECRET, code)
-
-    # 使用urllib2的urlopen方法发送请求
-    # 如果只传网址url参数，则默认使用http的get请求方式, 返回响应对象
-    response = urllib2.urlopen(url)
-
-    # 获取响应体数据,微信返回的json数据
-    json_str = response.read()
-    resp_dict = json.loads(json_str)
-
-    # 提取access_token
-    if "errcode" in resp_dict:
-        return u"获取access_token失败"
-
-    access_token = resp_dict.get("access_token")
-    open_id = resp_dict.get("openid")  # 用户的编号
-
-    # 3. 向微信服务器发送http请求，获取用户的资料数据
-    url = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN" \
-          % (access_token, open_id)
-
-    response = urllib2.urlopen(url)
-
-    # 读取微信传回的json的响应体数据
-    user_json_str = response.read()
-    user_dict_data = json.loads(user_json_str)
-
-    if "errcode" in user_dict_data:
-        return u"获取用户信息失败"
-    else:
-        # 将用户的资料数据填充到页面中
-        return render_template("index.html", user=user_dict_data)
 #
+# # www.itcastcpp.cn/wechat8000/index
+# @app.route("/wechat8000/index")
+# def index():
+#     """让用户通过微信访问的网页页面视图"""
+#     # 从微信服务器中拿去用户的资料数据
+#     # 1. 拿去code参数
+#     code = request.args.get("code")
+#
+#     if not code:
+#         return u"确实code参数"
+#
+#     # 2. 向微信服务器发送http请求，获取access_token
+#     url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid=%s&secret=%s&code=%s&grant_type=authorization_code" \
+#           % (WECHAT_APPID, WECHAT_APPSECRET, code)
+#
+#     # 使用urllib2的urlopen方法发送请求
+#     # 如果只传网址url参数，则默认使用http的get请求方式, 返回响应对象
+#     response = urllib2.urlopen(url)
+#
+#     # 获取响应体数据,微信返回的json数据
+#     json_str = response.read()
+#     resp_dict = json.loads(json_str)
+#
+#     # 提取access_token
+#     if "errcode" in resp_dict:
+#         return u"获取access_token失败"
+#
+#     access_token = resp_dict.get("access_token")
+#     open_id = resp_dict.get("openid")  # 用户的编号
+#
+#     # 3. 向微信服务器发送http请求，获取用户的资料数据
+#     url = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN" \
+#           % (access_token, open_id)
+#
+#     response = urllib2.urlopen(url)
+#
+#     # 读取微信传回的json的响应体数据
+#     user_json_str = response.read()
+#     user_dict_data = json.loads(user_json_str)
+#
+#     if "errcode" in user_dict_data:
+#         return u"获取用户信息失败"
+#     else:
+#         # 将用户的资料数据填充到页面中
+#         return render_template("index.html", user=user_dict_data)
+# #
 
 if __name__ == '__main__':
-    app.run(port=80, debug=True)
+    app.run(port=80, host='172.17.33.86',debug=True)

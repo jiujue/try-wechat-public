@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5c8b4219-d9b1-402d-83da-32f9aba9d50a" name="Default Changelist" comment="">
+    <list default="true" id="5c8b4219-d9b1-402d-83da-32f9aba9d50a" name="Default Changelist" comment="test online,third-03">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_flask/wechat.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_flask/wechat.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +33,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test_flask/wechat.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-22">
-              <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+            <state relative-caret-position="583">
+              <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
               <folding>
                 <element signature="e#17#73#0" expanded="true" />
+                <element signature="e#2552#2554#0" />
               </folding>
             </state>
           </provider>
@@ -71,8 +73,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="57" />
-    <option name="y" value="8" />
+    <option name="x" value="87" />
+    <option name="y" value="35" />
     <option name="width" value="1678" />
     <option name="height" value="1030" />
   </component>
@@ -221,7 +223,7 @@
       <workItem from="1565957819838" duration="40000" />
       <workItem from="1565961754577" duration="1699000" />
       <workItem from="1566006517299" duration="8143000" />
-      <workItem from="1566183595486" duration="1637000" />
+      <workItem from="1566183595486" duration="2319000" />
     </task>
     <task id="LOCAL-00001" summary="first function finish">
       <created>1565916383639</created>
@@ -300,14 +302,28 @@
       <option name="project" value="LOCAL" />
       <updated>1566185804546</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="test online,third">
+      <created>1566186417691</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1566186417691</updated>
+    </task>
+    <task id="LOCAL-00013" summary="test online,third-02">
+      <created>1566186548417</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566186548417</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19292000" />
+    <option name="totallyTimeSpent" value="19974000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="57" y="8" width="1678" height="1030" extended-state="0" />
+    <frame x="103" y="82" width="1678" height="1030" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26514214" />
@@ -315,13 +331,13 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975278" visible="true" weight="0.20982143" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4975278" visible="true" weight="0.14285715" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39955357" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32996634" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.62276787" />
       <window_info anchor="bottom" id="Database Changes" order="9" weight="0.32996634" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50247216" side_tool="true" weight="0.46986607" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.32996634" />
@@ -359,6 +375,16 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first function finish" />
     <MESSAGE value="debug shan1 error" />
@@ -370,11 +396,13 @@
     <MESSAGE value="remove csrf verify" />
     <MESSAGE value="test online,frist" />
     <MESSAGE value="test online,second" />
-    <option name="LAST_COMMIT_MESSAGE" value="test online,second" />
+    <MESSAGE value="test online,third" />
+    <MESSAGE value="test online,third-02" />
+    <option name="LAST_COMMIT_MESSAGE" value="test online,third-02" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/try_wechat_public$manage.coverage" NAME="manage Coverage Results" MODIFIED="1566183838588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/try_wechat_public$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1566186363831" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_flask" />
+    <SUITE FILE_PATH="coverage/try_wechat_public$wechat.coverage" NAME="wechat Coverage Results" MODIFIED="1566186855252" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/test_flask" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/hashlib.py">
@@ -506,10 +534,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test_flask/wechat.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+        <state relative-caret-position="583">
+          <caret line="146" column="39" selection-start-line="146" selection-start-column="39" selection-end-line="146" selection-end-column="39" />
           <folding>
             <element signature="e#17#73#0" expanded="true" />
+            <element signature="e#2552#2554#0" />
           </folding>
         </state>
       </provider>
