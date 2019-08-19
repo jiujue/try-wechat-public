@@ -48,7 +48,7 @@ def wechat(request):
     try:
         signature = request.GET['signature']
         timestamp = request.GET['timestamp']
-        nonce = str(request.GET['nonce']).split(' HTTP')[0]
+
     except Exception as e:
         signature = timestamp = nonce = None
 
@@ -56,6 +56,7 @@ def wechat(request):
 
         try:
             echostr = request.GET['echostr']
+            nonce = str(request.GET['nonce']).split(' HTTP')[0]
         except Exception as e:
             echostr = None
 
@@ -70,38 +71,44 @@ def wechat(request):
 
     # nonauth request of wechat
     elif request.method == 'POST':
+        print('have post connect')
+
+        return HttpResponse('success')
+
         print('*'*10,'have post to connect---')
-        xml_str = request.POST
+        xml_str = request.body
+        print('8'*8,xml_str)
         xml_dict = xmltodict.parse(xml_str)
+        print('/n/n/n/n------------------------')
         print('request xml_dict:',xml_dict)
         if not xml_dict :
             return HttpResponse('success')
         '''message sample:
         <xml>
-          <ToUserName>  <![CDATA[toUser]]>   </ToUserName>
-          <FromUserName>  <![CDATA[fromUser]]>  </FromUserName>
-          <CreateTime> 1348831860  </CreateTime>
-          <MsgType>  <![CDATA[text]]>  </MsgType>
-          <Content>  <![CDATA[this is a test]]>  </Content>
-          <MsgId>  1234567890123456   </MsgId>
+          <ToUserName><![CDATA[toUser]]></ToUserName>
+          <FromUserName><![CDATA[fromUser]]></FromUserName>
+          <CreateTime>12345678</CreateTime>
+          <MsgType><![CDATA[text]]></MsgType>
+          <Content><![CDATA[你好]]></Content>
         </xml>
         '''
         if xml_dict['xml']['MsgType'] == 'text':
 
-            response_dict =  dict()
-
-            response_dict['xml']['ToUserName'] = xml_dict['xml']['FromUserName']
-            response_dict['xml']['FromUserName'] = xml_dict['xml']['ToUserName']
-            response_dict['xml']['CreateTime'] = int(time.time())
-            response_dict['xml']['Content'] = xml_dict['xml']['Content']
-            response_dict['xml']['MsgType'] = xml_dict['xml']['MsgType']
-            response_dict['xml']['MsgId'] = xml_dict['xml']['MsgId']
+            response_dict = {
+                    "xml": {
+                        "ToUserName": xml_dict.get("FromUserName"),
+                        "FromUserName": xml_dict.get("ToUserName"),
+                        "CreateTime": int(time.time()),
+                        "MsgType": "text",
+                        "Content": xml_dict.get("Content")
+                    }
+                }
 
             response_xml_str = xmltodict.unparse(response_dict)
 
             print('response xml str:',response_xml_str)
 
-            return HttpResponse(response_xml_str)
+            return HttpResponse(str(response_xml_str).encode())
         else:
             return HttpResponse('success')
 
