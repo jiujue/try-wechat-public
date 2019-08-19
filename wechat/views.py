@@ -71,9 +71,9 @@ def wechat(request):
 
     # nonauth request of wechat
     elif request.method == 'POST':
-        print('have post connect')
-
-        return HttpResponse('success')
+        # print('have post connect')
+        #
+        # return HttpResponse('success')
 
         print('*'*10,'have post to connect---')
         xml_str = request.body
@@ -91,9 +91,10 @@ def wechat(request):
           <MsgType><![CDATA[text]]></MsgType>
           <Content><![CDATA[你好]]></Content>
         </xml>
+        
         '''
         if xml_dict['xml']['MsgType'] == 'text':
-
+            xml_dict = xml_dict.get('xml')
             response_dict = {
                     "xml": {
                         "ToUserName": xml_dict.get("FromUserName"),
