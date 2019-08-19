@@ -1,0 +1,33 @@
+IP  101.200.170.171
+www.itcastcpp.cn
+
+
+账号： s8001 ~ s8020
+密码： 123456a
+
+flask程序的url /wechat80xx  运行的端口80xx
+
+微信配置url http://101.200.170.171/wechat80xx
+
+
+ssh  s80xx@101.200.170.171
+
+切换到flask_py2 虚拟环境  workon flask_py2
+
+如果提示workon命令未找到   source ~/.bashrc
+
+scp 源文件   目标文件
+scp ./wechat.py    s80xx@101.200.170.171:~/xxxx/
+
+
+
+用户访问的网页网址
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=APPID&redirect_uri=REDIRECT_URI&response_type=code&scope=SCOPE&state=STATE#wechat_redirect
+
+
+http://www.itcastcpp.cn/wechat8000/index
+urllib.quote()
+
+
+https://open.weixin.qq.com/connect/oauth2/authorize?appid=wx36766f74dbfeef15&redirect_uri=http%3A//www.itcastcpp.cn/wechat8000/index
+&response_type=code&scope=snsapi_userinfo&state=1#wechat_redirect
