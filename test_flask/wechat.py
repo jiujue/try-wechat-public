@@ -19,7 +19,7 @@ WECHAT_APPSECRET = "cd02af74ba75c2d1e42381c13f2129bf"
 app = Flask(__name__)
 
 
-@app.route("/wechat8000", methods=["GET", "POST"])
+@app.route("/wechat", methods=["GET", "POST"])
 def wechat():
     # return 'success'
     # """对接微信公众号服务器"""
