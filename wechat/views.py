@@ -93,16 +93,16 @@ def wechat(request):
         </xml>
         '''
 
-        response_content =  xml_dict.get("Content")
+        response_content = xml_dict.get('xml').get('Content')
         try:
             if response_content.endswith('吗？'):
-                response_content = response_content.split('吗？')[0]+'！'
+                response_content = response_content.split('吗？')[0] + '！'
             elif response_content.endswith('！'):
                 response_content = response_content.split('！')[0] + '吗？'
             else:
                 response_content = '嗯'
         except:
-            response_content = xml_dict.get("Content")
+            response_content = '....'
 
 
         if xml_dict['xml']['MsgType'] == 'text':
