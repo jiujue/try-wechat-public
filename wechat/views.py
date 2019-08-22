@@ -102,7 +102,7 @@ def wechat(request):
             else:
                 response_content = '嗯'
         except:
-            pass
+            response_content = xml_dict.get("Content")
 
 
         if xml_dict['xml']['MsgType'] == 'text':
