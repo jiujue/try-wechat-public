@@ -154,6 +154,8 @@ def index(request):
     # 获取响应体数据,微信返回的json数据
     resp_dict = response.json()
 
+    print('===',resp_dict)
+
     # 提取access_token
     if "errcode" in resp_dict:
         return HttpResponse("获取access_token失败")
