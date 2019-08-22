@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ user.nickname }}</title>
     <style>
+        body {
+            background: aliceblue;
+        }
+
         .wrapper {
             border: 2px solid gold;
             height: 100%;
@@ -13,38 +17,51 @@
             background: gainsboro;
         }
 
-        h1 {
-            border: 2px solid greenyellow;
-
+        #item {
+            padding: 3px;
+            border: 2px solid skyblue;
+            margin: 10px;
             background: silver;
+        }
+        .banner-text{
+            height: 50px;
+            width: 500px;
+            margin: 30px auto;
+            color: skyblue;
+        }
+        .img-wrapper{
+            height: {{ user.headimgurl_size }};
+            width: {{ user.headimgurl_size }};
         }
     </style>
 </head>
 <body>
+<h1 class="banner-text">Test Obtain User Information</h1>
 <div class="wrapper">
-    <div>
+    <div id="item">
         <span>OpenId:</span>
         <span>{{ user.openid }}</span>
     </div>
-    <div>
+    <div id="item">
         <span>Gender:</span>
         <span>{{ user.sex }}</span>
     </div>
-    <div>
+    <div id="item">
         <span>Province:</span>
         <span>{{ user.province }}</span>
     </div>
-    <div>
+    <div id="item">
         <span>City:</span>
         <span>{{ user.city }}</span>
     </div>
-    <div>
+    <div id="item">
         <span>Country:</span>
         <span>{{ user.country }}</span>
     </div>
-    <div>
+    <div id="item">
         <span>Profile Picture:</span>
-        <img src="{{ use.headimgurl }}"></img>
+        <div class="img-wrapper"><img alt="headimg" src="{{ use.headimgurl }}"></img></div>
+
     </div>
 </div>
 </body>
