@@ -108,7 +108,7 @@ def wechat(request):
             elif response_content.endswith('！'):
                 response_content = response_content.split('！')[0] + '吗？'
             else:
-                response_content = xml_dict.get('xml').get('Content')+' /::'
+                response_content = xml_dict.get('xml').get('Content')+'/::)'
         except:
             response_content = '....'
 
