@@ -1,0 +1,6 @@
+Watching for file changes with StatReloader
+[21/Aug/2019 03:27:40] "POST /wechat?signature=8da8a1589b0817beb853e0f7c9fbb91d33318b58&timestamp=1566358060&nonce=1642422220&openid=ozyx8jpRr1pvj8KBadhJN--WhzaA HTTP/1.1" 200 233
+[21/Aug/2019 03:27:55] "POST /wechat?signature=1311521dc962e9424ee831f69fce372e17e2404e&timestamp=1566358075&nonce=1989141826&openid=ozyx8jpRr1pvj8KBadhJN--WhzaA HTTP/1.1" 200 233
+[21/Aug/2019 03:28:00] "POST /wechat?signature=d415990449756a289fc25510885d9ffafa37166f&timestamp=1566358080&nonce=1053037399&openid=ozyx8jpRr1pvj8KBadhJN--WhzaA HTTP/1.1" 200 226
+Watching for file changes with StatReloader
+[21/Aug/2019 03:29:49] "POST /wechat?signature=89045536eb9f1545f11d4b81f9c7aeffd66cb7bd&timestamp=1566358189&nonce=122412082&openid=ozyx8jpRr1pvj8KBadhJN--WhzaA HTTP/1.1" 200 233
