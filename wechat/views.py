@@ -167,7 +167,7 @@ def index(request):
     open_id = resp_dict.get("openid")  # 用户的编号
 
     # 3. 向微信服务器发送http请求，获取用户的资料数据
-    url = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=zh_CN" \
+    url = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s&lang=en" \
           % (settings.SECC_TOKEN, open_id)
 
     response = requests.get(url)
