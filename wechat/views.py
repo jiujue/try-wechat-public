@@ -97,7 +97,7 @@ def wechat(request):
         response_content = xml_dict.get('xml').get('Content')
         try:
             if response_content == '首页':
-                response_content = 'http://47.103.119.232/wechat/index'
+                response_content = 'http://suo.im/58h4mp'
             elif response_content.endswith('吗？'):
                 response_content = response_content.split('吗？')[0] + '！'
             elif response_content.endswith('！'):
