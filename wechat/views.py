@@ -97,7 +97,8 @@ def wechat(request):
         response_content = xml_dict.get('xml').get('Content')
         try:
             if response_content == '首页':
-                response_content = 'http://suo.im/58h4mp'
+                response_content = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_url}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect'\
+                    .format(appid=settings.WECHAT_APPID,redirect=settings.REDIRECT_URL)
             elif response_content.endswith('吗？'):
                 response_content = response_content.split('吗？')[0] + '！'
             elif response_content.endswith('！'):
@@ -136,7 +137,7 @@ def index(request):
     """让用户通过微信访问的网页页面视图"""
     # 从微信服务器中拿去用户的资料数据
     # 1. 拿去code参数
-    code = request.args.get("code")
+    code = request.GET.get("code")
 
     if not code:
         return  HttpResponse("缺失code参数")
