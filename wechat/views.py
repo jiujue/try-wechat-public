@@ -137,14 +137,15 @@ def index(request):
     """让用户通过微信访问的网页页面视图"""
     # 从微信服务器中拿去用户的资料数据
     # 1. 拿去code参数
-    code = request.GET.get("code")
-
+    print('--',request.GET)
+    code = request.GET["code"]
     if not code:
+        print(' defect code argu')
         return  HttpResponse("缺失code参数")
 
     # 2. 向微信服务器发送http请求，获取access_token
     url = "https://api.weixin.qq.com/sns/oauth2/access_token?appid={appid}&secret={secret}&code={code}&grant_type=authorization_code" \
-          % (settings.WECHAT_APPID, settings.WECHAT_SECRET, code)
+          .format (appid=settings.WECHAT_APPID, secret=settings.WECHAT_SECRET, code=code)
 
     # 使用urllib2的urlopen方法发送请求
     # 如果只传网址url参数，则默认使用http的get请求方式, 返回响应对象
