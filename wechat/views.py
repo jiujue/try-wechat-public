@@ -97,7 +97,7 @@ def wechat(request):
         response_content = xml_dict.get('xml').get('Content')
         try:
             if response_content == '首页':
-                response_content = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_url}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect' \
+                response_content = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_url}&response_type=code&scope=snsapi_userinfo&state=STATE&connect_redirect=1#wechat_redirect' \
                     .format(appid=settings.WECHAT_APPID, redirect_url=settings.REDIRECT_URL)
             elif response_content.endswith('吗？'):
                 response_content = response_content.split('吗？')[0] + '！'
