@@ -9,6 +9,10 @@ import xmltodict
 from copy import deepcopy
 import time
 import requests
+import re
+
+
+
 
 
 # Create your views here.
@@ -181,5 +185,7 @@ def index(request):
     else:
         # 将用户的资料数据填充到页面中
         print('--> obtain user info:',user_dict_data)
+        user_dict_data['headimgurl'] = re.match(r'(.*)/(0|46|64|96|132)+$',user_dict_data['headimgurl']).groups()[0]
+        print('<--> obtain user info:',user_dict_data)
         return render(request,'wechat/index.html',context={'user':user_dict_data})
 #

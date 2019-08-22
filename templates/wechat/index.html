@@ -3,13 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ user.nickname}}</title>
+    <title>{{ user.nickname }}</title>
+    <style>
+        .wrapper {
+            border: 2px solid gold;
+        }
+
+        h1 {
+            background: silver;
+        }
+    </style>
 </head>
 <body>
-<div> <span>Gender</span><h1>{{ use.sex}}</h1></div>
-<div> <span>Province</span><h1>{{ use.province}}</h1></div>
-<div> <span>City</span><h1>{{ use.city}}</h1></div>
-<div> <span>Country</span><h1>{{ use.country}}</h1></div>
-<div> <span>Profile picture</span><img src={{ use.headimgurl}}></img></div>
+<div class="wrapper">
+    <div><span>OpenId</span>
+        <h1>{{ user.opnid }}</h1>
+    </div>
+    <div><span>Gender</span>
+        <h1>{{ user.sex }}</h1>
+    </div>
+    <div><span>Province</span>
+        <h1>{{ user.province }}</h1>
+    </div>
+    <div><span>City</span>
+        <h1>{{ user.city }}</h1>
+    </div>
+    <div><span>Country</span>
+        <h1>{{ user.country }}</h1>
+    </div>
+    <div>
+        <span>Profile picture</span>
+        <img src={{ use.headimgurl }}></img>
+    </div>
+</div>
 </body>
 </html>
