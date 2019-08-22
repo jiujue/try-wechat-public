@@ -186,8 +186,6 @@ def index(request):
         # 将用户的资料数据填充到页面中
         print('--> obtain user info:',user_dict_data)
         re_res = re.match(r'(.*)/(0|46|64|96|132)+$', user_dict_data['headimgurl']).groups()
-
-        user_dict_data['headimgurl'] = re_res[0]
         user_dict_data['headimgurl_size'] = re_res[1] if re_res[1] != '0' else 640
         for key in user_dict_data:
             if user_dict_data[key] == '':
