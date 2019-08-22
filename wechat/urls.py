@@ -18,6 +18,6 @@ from wechat import views
 
 urlpatterns = [
     re_path(r'^wechat$',views.wechat),
-    re_path(r'^/wechat/index$', views.index),
+    re_path(r'^wechat/index$', views.index),
     re_path(r'^$',views.test),
 ]
