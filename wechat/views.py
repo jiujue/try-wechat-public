@@ -180,5 +180,5 @@ def index(request):
         return HttpResponse("获取用户信息失败")
     else:
         # 将用户的资料数据填充到页面中
-        return render(request,'wechat/index.html',context={'user':user_dict_data})
+        return render(request,'index.html',context={'user':user_dict_data})
 #
