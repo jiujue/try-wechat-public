@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'wechat',
 ]
 
 MIDDLEWARE = [
@@ -62,6 +63,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                os.path.join(BASE_DIR,'templates'),
             ],
         },
     },
@@ -120,3 +122,6 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 WECHAT_TOKEN = 'jiujue'
+
+WECHAT_APPID = 'wx5398bd02f534078e'
+WECHAT_SECRET = 'b4cc0c64a6b21d3a8a72983007cb55b6'
