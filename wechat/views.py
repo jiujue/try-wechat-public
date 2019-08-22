@@ -97,7 +97,7 @@ def wechat(request):
         response_content = xml_dict.get('xml').get('Content')
         try:
             if response_content == '首页':
-                response_content = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_url}&response_type=code&scope=snsapi_userinfo&state=STATE&connect_redirect=1#wechat_redirect' \
+                response_content = 'https://open.weixin.qq.com/connect/oauth2/authorize?appid={appid}&redirect_uri={redirect_url}&response_type=code&scope=snsapi_userinfo&state=STATE#wechat_redirect' \
                     .format(appid=settings.WECHAT_APPID, redirect_url=settings.REDIRECT_URL)
             elif response_content.endswith('吗？'):
                 response_content = response_content.split('吗？')[0] + '！'
@@ -156,9 +156,12 @@ def index(request):
 
     print('===',resp_dict)
 
-    # 提取access_token
-    if "errcode" in resp_dict:
-        return HttpResponse("获取access_token失败")
+    if 'access_token' in resp_dict:
+        settings.SECC_TOKEN = resp_dict['access_token']
+
+    # # 提取access_token
+    # if "errcode" in resp_dict:
+    #     return HttpResponse("获取access_token失败")
 
     access_token = resp_dict.get("access_token")
     open_id = resp_dict.get("openid")  # 用户的编号
