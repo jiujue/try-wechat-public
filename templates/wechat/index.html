@@ -7,6 +7,7 @@
     <style>
         .wrapper {
             border: 2px solid gold;
+            height: 100%;
         }
 
         h1 {
@@ -16,24 +17,29 @@
 </head>
 <body>
 <div class="wrapper">
-    <div><span>OpenId</span>
-        <h1>{{ user.opnid }}</h1>
-    </div>
-    <div><span>Gender</span>
-        <h1>{{ user.sex }}</h1>
-    </div>
-    <div><span>Province</span>
-        <h1>{{ user.province }}</h1>
-    </div>
-    <div><span>City</span>
-        <h1>{{ user.city }}</h1>
-    </div>
-    <div><span>Country</span>
-        <h1>{{ user.country }}</h1>
+    <div>
+        <span>OpenId:</span>
+        <span>{{ user.openid }}</span>
     </div>
     <div>
-        <span>Profile picture</span>
-        <img src={{ use.headimgurl }}></img>
+        <span>Gender:</span>
+        <span>{{ user.sex }}</span>
+    </div>
+    <div>
+        <span>Province:</span>
+        <span>{{ user.province }}</span>
+    </div>
+    <div>
+        <span>City:</span>
+        <span>{{ user.city }}</span>
+    </div>
+    <div>
+        <span>Country:</span>
+        <span>{{ user.country }}</span>
+    </div>
+    <div>
+        <span>Profile Picture:</span>
+        <img src="{{ use.headimgurl }}"></img>
     </div>
 </div>
 </body>
