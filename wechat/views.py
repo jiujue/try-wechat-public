@@ -91,8 +91,20 @@ def wechat(request):
           <MsgType><![CDATA[text]]></MsgType>
           <Content><![CDATA[你好]]></Content>
         </xml>
-        
         '''
+
+        response_content =  xml_dict.get("Content")
+        try:
+            if response_content.endswith('吗？'):
+                response_content = response_content.split('吗？')[0]+'！'
+            elif response_content.endswith('！'):
+                response_content = response_content.split('！')[0] + '吗？'
+            else:
+                response_content = '嗯'
+        except:
+            pass
+
+
         if xml_dict['xml']['MsgType'] == 'text':
             xml_dict = xml_dict.get('xml')
             response_dict = {
@@ -101,7 +113,7 @@ def wechat(request):
                         "FromUserName": xml_dict.get("ToUserName"),
                         "CreateTime": int(time.time()),
                         "MsgType": "text",
-                        "Content": xml_dict.get("Content")
+                        "Content": response_content
                     }
                 }
 
