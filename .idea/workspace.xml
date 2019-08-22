@@ -4,7 +4,6 @@
     <list default="true" id="3b3b497f-229b-4491-ae03-93108767489f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/wechat/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/wechat/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/wechat/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/wechat/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -20,8 +19,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wechat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="190" column="39" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="39" />
+            <state relative-caret-position="429">
+              <caret line="187" column="92" selection-start-line="187" selection-start-column="92" selection-end-line="187" selection-end-column="92" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
                 <element signature="e#325#683#0" />
@@ -34,21 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/wechat/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="254">
-              <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="88">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
-              <folding>
-                <element signature="n#!!doc" />
-                <element signature="n#!!doc" />
-              </folding>
+            <state relative-caret-position="518">
+              <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
             </state>
           </provider>
         </entry>
@@ -273,7 +259,7 @@
       <workItem from="1566385616954" duration="139000" />
       <workItem from="1566463004554" duration="1792000" />
       <workItem from="1566472891552" duration="1511000" />
-      <workItem from="1566475539123" duration="9537000" />
+      <workItem from="1566475539123" duration="9754000" />
     </task>
     <task id="LOCAL-00001" summary="up function : reply">
       <created>1566463598628</created>
@@ -429,7 +415,21 @@
       <option name="project" value="LOCAL" />
       <updated>1566484696671</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="up function : index - eighth - 10">
+      <created>1566485854794</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1566485854794</updated>
+    </task>
+    <task id="LOCAL-00024" summary="up function : index - eighth - 11">
+      <created>1566485964569</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1566485964569</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -438,7 +438,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13596000" />
+    <option name="totallyTimeSpent" value="13813000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="141" y="45" width="1678" height="994" extended-state="0" />
@@ -516,7 +516,9 @@
     <MESSAGE value="up function : index - eighth - 07" />
     <MESSAGE value="up function : index - eighth - 08" />
     <MESSAGE value="up function : index - eighth - 09" />
-    <option name="LAST_COMMIT_MESSAGE" value="up function : index - eighth - 09" />
+    <MESSAGE value="up function : index - eighth - 10" />
+    <MESSAGE value="up function : index - eighth - 11" />
+    <option name="LAST_COMMIT_MESSAGE" value="up function : index - eighth - 11" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/try_wechat_public$pytest_in_views_py.coverage" NAME="pytest in views.py Coverage Results" MODIFIED="1566483580786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/wechat" />
@@ -591,8 +593,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wechat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="190" column="39" selection-start-line="190" selection-start-column="24" selection-end-line="190" selection-end-column="39" />
+        <state relative-caret-position="429">
+          <caret line="187" column="92" selection-start-line="187" selection-start-column="92" selection-end-line="187" selection-end-column="92" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
             <element signature="e#325#683#0" />
@@ -603,8 +605,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/wechat/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="28" column="30" lean-forward="true" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
+        <state relative-caret-position="518">
+          <caret line="62" column="75" selection-start-line="62" selection-start-column="75" selection-end-line="62" selection-end-column="75" />
         </state>
       </provider>
     </entry>
