@@ -3,67 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ user.nickname }}</title>
+    <title>Title</title>
     <style>
-        body {
-            background: aliceblue;
-        }
-
-        .wrapper {
-            border: 2px solid gold;
-            height: 100%;
-            margin: 20px auto;
-            padding: 20px;
-            background: gainsboro;
-        }
-
-        #item {
-            padding: 3px;
-            border: 2px solid skyblue;
-            margin: 10px;
-            background: silver;
-        }
-        .banner-text{
-            height: 50px;
-            width: 500px;
-            margin: 30px auto;
-            color: skyblue;
-        }
-        .img-wrapper{
-            height: {{ user.headimgurl_size }};
-            width: {{ user.headimgurl_size }};
+        body{
+            background: skyblue;
+            padding: 50px;
         }
     </style>
 </head>
 <body>
-<h1 class="banner-text">Test Obtain User Information</h1>
-<div class="wrapper">
-    <div id="item">
-        <span>OpenId:</span>
-        <span>{{ user.openid }}</span>
-    </div>
-    <div id="item">
-        <span>Gender:</span>
-        <span>{{ user.sex }}</span>
-    </div>
-    <div id="item">
-        <span>Province:</span>
-        <span>{{ user.province }}</span>
-    </div>
-    <div id="item">
-        <span>City:</span>
-        <span>{{ user.city }}</span>
-    </div>
-    <div id="item">
-        <span>Country:</span>
-        <span>{{ user.country }}</span>
-    </div>
-    <div id="item">
-        <span>Profile Picture:</span>
-        <div class="img-wrapper"><img alt="headimg" src="{{ user.headimgurl }}"></img></div>
-        <a href="http://www.baidu.com">baidu</a>
-        <a href="http://47.103.119.232/">myself</a>
-    </div>
-</div>
+    <h1 style="margin: 20px auto;color: gold;">It is work.</h1>
+    <h1 style="margin: 20px auto;color: cyan;">hello,user from {{ ip }} .</h1>
 </body>
 </html>

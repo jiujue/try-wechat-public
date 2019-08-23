@@ -37,8 +37,9 @@ def test(request):
     :param request:
     :return: None
     '''
+    ip = request.META['REMOTE_ADDR']
 
-    return HttpResponse('<html><body><h1 style="margin: 20px auto;color: gold;">It is work</h1></body></html>')
+    return render(request,'wechat/index.html',context={'ip':ip})
 
 
 
@@ -192,5 +193,5 @@ def index(request):
                 user_dict_data[key] = '未知/未填写'
 
         print('<--> obtain user info:',user_dict_data)
-        return render(request,'wechat/index.html',context={'user':user_dict_data})
+        return render(request,'wechat/user-info.html',context={'user':user_dict_data})
 #
