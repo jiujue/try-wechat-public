@@ -1442,3 +1442,893 @@ Not Found: /GponForm/diag_Form
 [22/Aug/2019 07:57:57] "GET / HTTP/1.1" 200 84
 Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
 [22/Aug/2019 08:08:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+Watching for file changes with StatReloader
+[22/Aug/2019 15:09:34] "POST /wechat?signature=ce66a9192b34ddc1b480fcfdb6ce5ace33783f8f&timestamp=1566486574&nonce=1511562467&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 231
+[22/Aug/2019 15:09:39] "POST /wechat?signature=e50d3b44da4b93a317685cabf3c862ed0c86f429&timestamp=1566486579&nonce=2093957888&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[22/Aug/2019 15:09:42] "GET /wechat/index?code=011jrbIp0xFUgo14okKp08xRHp0jrbIk&state=STATE HTTP/1.1" 200 1675
+[22/Aug/2019 15:09:44] "GET /wechat/index?code=011jrbIp0xFUgo14okKp08xRHp0jrbIk&state=STATE&nsukey=GNDVhPRHQQYoBbK4YBgrH6DvMIiIAeRFrhxzG9QRrFjlZodSRFeC19TEBpu8bZtPKHFPLWcPjLva0NfrG9x7QGTbLEf8UuJEQVsXAYA29cheqa7gol2QmGtVpV%2B8xfaYD7ntXmcwqw4LKKl6M4DHsOaOuYvcDfap24ipp2bc7ULRXSHxlOJgKMmXTp8E8G1C67vO6KGGjZZd5NLOslMLsg%3D%3D HTTP/1.1" 200 1675
+[22/Aug/2019 15:15:32] "POST /wechat?signature=b989e0ea6e8b5124e785129af31a697b4341b4b4&timestamp=1566486932&nonce=1132570689&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 234
+[22/Aug/2019 15:24:44] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 15:29:56] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 15:30:30] "POST /wechat?signature=4e15e411b6d7a91cc48bd535e856bd6b9d1c7017&timestamp=1566487830&nonce=1797303143&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 234
+Watching for file changes with StatReloader
+[22/Aug/2019 15:39:27] "POST /wechat?signature=df4a8337f031c03968966008f934c8af70de67bd&timestamp=1566488367&nonce=879146175&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[22/Aug/2019 15:39:43] "GET /wechat/index?code=011QwVw325Em9P0scdx32hm5x32QwVww&state=STATE&nsukey=CkwQLnpeBGpDF6ekZa4%2Bl0gJVheZya7t3zgr9rDAArpE2cs4EqMbEbFU6TXvQMXo%2FDsmrSQ0XvgNK4varWfx0NJpkHfinF%2FK5jLFC%2FPBkWvZRZ2mAAblux5KpLJEnLOwhmcGSXi4Yq472t5LdsEGkI1zSVlEhIyvfDeZ4yzmEm8%3D HTTP/1.1" 200 1775
+Not Found: /favicon.ico
+[22/Aug/2019 15:39:43] "GET /favicon.ico HTTP/1.1" 404 2441
+[22/Aug/2019 15:39:52] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 15:39:53] "GET /?nsukey=xnzPOQqcDWzDYMgwEMpXMlUrkH87zOlg9u%2FaMHlqk7SVMMDVDwdS2Lajlgu3%2BgfRthWjQH1fv7IL2UHdxePFXl0CQi3%2FN%2BzrU6QLL6txIIfdW2YJWFbiidqw336D0T6BX%2F1ih7lQ5OszSSpFPf2Rt%2FiCuGwabqHf5t3GUUrB2zWz0dSHFPIr%2BhA6aDKd%2Bdy3kouMrVrSeibEr5MFbcOsUw%3D%3D HTTP/1.1" 200 84
+[22/Aug/2019 15:40:53] "GET /?nsukey=xnzPOQqcDWzDYMgwEMpXMlUrkH87zOlg9u%2FaMHlqk7SVMMDVDwdS2Lajlgu3%2BgfRthWjQH1fv7IL2UHdxePFXl0CQi3%2FN%2BzrU6QLL6txIIfdW2YJWFbiidqw336D0T6BX%2F1ih7lQ5OszSSpFPf2Rt%2FiCuGwabqHf5t3GUUrB2zWz0dSHFPIr%2BhA6aDKd%2Bdy3kouMrVrSeibEr5MFbcOsUw%3D%3D HTTP/1.1" 200 84
+Not Found: /robots.txt
+[22/Aug/2019 15:48:49] "HEAD /robots.txt HTTP/1.0" 404 2448
+[22/Aug/2019 16:03:45] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 16:32:20] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 16:33:17] "GET / HTTP/1.0" 200 84
+[22/Aug/2019 16:34:07] "GET / HTTP/1.0" 200 84
+[22/Aug/2019 16:39:09] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 17:03:03] "GET / HTTP/1.1" 200 84
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Aug/2019 17:03:03] "GET / HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('104.238.217.123', 1506)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+Not Found: /http://www.jiujue.shop/
+[22/Aug/2019 17:03:03] "GET /http%3A%2F%2Fwww%2Ejiujue%2Eshop%2F HTTP/1.1" 404 2478
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[22/Aug/2019 17:03:03] "GET /http%3A%2F%2Fwww%2Ejiujue%2Eshop%2F HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('104.238.217.123', 1516)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[22/Aug/2019 17:46:04] "GET / HTTP/1.1" 200 84
+[22/Aug/2019 18:01:15] "GET / HTTP/1.1" 200 84
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[22/Aug/2019 18:13:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 42149)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[22/Aug/2019 18:23:21] "GET / HTTP/1.1" 200 84
+----------------------------------------
+Exception happened during processing of request from ('172.104.242.173', 45981)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /info
+[22/Aug/2019 20:01:03] "GET /info HTTP/1.1" 404 2420
+[22/Aug/2019 20:18:39] "GET / HTTP/1.0" 200 84
+/root/try-wechat-public/wechat/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 22, 2019 - 15:38:52
+Django version 2.2.4, using settings 'sample.settings'
+Starting development server at http://172.17.33.86:80/
+Quit the server with CONTROL-C.
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566488367</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe9\xa6\x96\xe9\xa1\xb5]]></Content>\n<MsgId>22426717267467733</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566488367'), ('MsgType', 'text'), ('Content', '首页'), ('MsgId', '22426717267467733')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566488367</CreateTime><MsgType>text</MsgType><Content>https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff05f38a8a69fdb6&amp;redirect_uri=http%3a%2f%2f47.103.119.232%2fwechat%2findex&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=STATE#wechat_redirect</Content></xml>
+-- <QueryDict: {'code': ['011QwVw325Em9P0scdx32hm5x32QwVww'], 'state': ['STATE'], 'nsukey': ['CkwQLnpeBGpDF6ekZa4+l0gJVheZya7t3zgr9rDAArpE2cs4EqMbEbFU6TXvQMXo/DsmrSQ0XvgNK4varWfx0NJpkHfinF/K5jLFC/PBkWvZRZ2mAAblux5KpLJEnLOwhmcGSXi4Yq472t5LdsEGkI1zSVlEhIyvfDeZ4yzmEm8=']}>
+=== {'access_token': '24_NLVgYdE4Sof2qdVn1zkiQ3uxRyTnONr5oO1UjHxaa_nf3XH79ZfX2hSSvh48dqa4uubK0Rt9Kkkh3xlY2R05LooJboGhdfqVgIUZ6iAp-UI', 'expires_in': 7200, 'refresh_token': '24_tV-uRlizcDz8EPa-62vn2NzAB0yulKVIUh1TfRF_6Ntxghia-tTXtcPnD2XLxg3AepStxP6NjUDK-jBFv89YqhQQ7pjllSykjO5tWBdZMDk', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 23, 2019 - 00:16:57
+Django version 2.2.4, using settings 'sample.settings'
+Starting development server at http://172.17.33.86:80/
+Quit the server with CONTROL-C.
+Watching for file changes with StatReloader
+[23/Aug/2019 00:23:03] "GET / HTTP/1.1" 200 458
+Not Found: /favicon.ico
+[23/Aug/2019 00:23:03] "GET /favicon.ico HTTP/1.1" 404 2441
+[23/Aug/2019 00:46:25] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 02:11:08] "GET / HTTP/1.1" 200 457
+Not Found: /http:/110.249.212.46/testget
+[23/Aug/2019 03:50:15] "GET http://110.249.212.46/testget?q=23333&port=80 HTTP/1.1" 404 1723
+----------------------------------------
+Exception happened during processing of request from ('110.249.212.46', 38278)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /http:/www.baidu.com/cache/global/img/gs.gif
+[23/Aug/2019 04:17:27] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 1738
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 59264)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Aug/2019 05:17:35] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 05:23:24] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*à\x00\x00\x00\x00\x00Cookie:')
+[23/Aug/2019 05:23:24] "  /*à     Cookie: mstshash=Administr" 400 -
+[23/Aug/2019 06:47:38] "GET / HTTP/1.1" 200 458
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[23/Aug/2019 06:47:38] "GET / HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('202.173.11.248', 41474)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[23/Aug/2019 06:57:39] "GET / HTTP/1.1" 200 459
+[23/Aug/2019 07:40:56] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 07:40:57] "GET /favicon.ico HTTP/1.1" 404 77
+[23/Aug/2019 07:41:01] "GET /233 HTTP/1.1" 404 77
+[23/Aug/2019 07:41:04] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 07:41:08] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 07:41:18] "GET /%E6%92%92%E5%A4%A7 HTTP/1.1" 404 77
+[23/Aug/2019 07:50:39] "GET /wechat/index?code=0118KcnR1XWHr21jSZmR1jqmnR18KcnH&state=STATE HTTP/1.1" 200 1768
+[23/Aug/2019 07:50:41] "GET /wechat/index?code=0118KcnR1XWHr21jSZmR1jqmnR18KcnH&state=STATE&nsukey=ACgN4EOGWKWcDK2V4IMwEAgRH%2FRYv2Y7KS36rnPH9JEBBbxVvHKl%2Bp3kUgV8l0z84Afm9AzHrjdqOwAcL7nsfxWCfnbdmiMZ%2F2XM23EEz8jLNN1vKAkbRlIoJVed%2BtGcYtXIX3v2UniWgLZi9jxLe8Dm%2FFsRt93iUBD37fYKki8CbRmoazL2v1bUeIu7J3aalo6c9MxIq4gKSbEAyvjypA%3D%3D HTTP/1.1" 200 1768
+[23/Aug/2019 07:50:53] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 07:50:54] "GET /?nsukey=NfHlAG5rsCOhy9%2BqIP93q2O%2Bj6CeR3NAF36yDtMe3T5WH9OQ4B2C1ESmBGNlR6dO3yix7XqIZX8VKwXlIz4fBpZdFhBa7QLFpCa0BP0%2BkI17EfmoY5pjbFHv9jXtP01ocSNfmCbLzLgrzeB5vbnI3HTIz%2F5cdpu0fdtprscjDNw5%2FlzB8M4jDTS8YE4%2FKrswov7ipHCl9sOqs%2FY%2FiXYiVw%3D%3D HTTP/1.1" 200 458
+[23/Aug/2019 07:51:29] "POST /wechat?signature=8cf91184f4660e5f80e98a51fa33b89d3aef5340&timestamp=1566546689&nonce=1888677919&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[23/Aug/2019 07:51:32] "GET /wechat/index?code=0013oZi81rMANL1B56g81lfJi813oZiK&state=STATE HTTP/1.1" 200 1768
+[23/Aug/2019 07:51:35] "GET /wechat/index?code=0013oZi81rMANL1B56g81lfJi813oZiK&state=STATE&nsukey=SqEaZUQRkavsfnEmlyFJvVZSeefEfqVsvy0EZSg2WeddzIbZG9v0IQobO5AxiIJE44cEfbuFetP3Nb4amBUW%2F0MzCnx7Z0BSFPG6ny5afN%2FnmDIcgfEAdDk3KcFS%2FspwKehd%2F97HSTODrq9NENCBB15eYvD5a9bk2GFSm%2Fz%2BngN0t1L1PycU7OhUyCq1r8rLzDoLPk6edwnM%2BytryQ%2BOTA%3D%3D HTTP/1.1" 200 1768
+[23/Aug/2019 07:52:19] "POST /wechat?signature=f0383b931140a27e6f265f9d1c093ea82bd352fa&timestamp=1566546739&nonce=1827648193&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 237
+[23/Aug/2019 07:52:21] "POST /wechat?signature=e903602575eace6eaed9fa74527591d56b80e3f6&timestamp=1566546741&nonce=1989546271&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 237
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 17 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+August 23, 2019 - 07:40:44
+Django version 2.2.4, using settings 'sample.settings'
+Starting development server at http://172.17.33.86:80/
+Quit the server with CONTROL-C.
+-- <QueryDict: {'code': ['0118KcnR1XWHr21jSZmR1jqmnR18KcnH'], 'state': ['STATE']}>
+=== {'access_token': '24_qKthTh09eqywkgDn0yhHbDkB4spvbwFQTrBqYpjUemhXA6wuJKWXaQV9shtiqXzexEQ8Stf6jTajvPZeqDazuA', 'expires_in': 7200, 'refresh_token': '24_pvlFADZsZm1YXn_DItP1r7-4X0zlP5oqGSSPPbdZndfcAsnTosWJOMp10iFWd3cW8PvrFkrCf0aYjlpkKIMW-A', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['0118KcnR1XWHr21jSZmR1jqmnR18KcnH'], 'state': ['STATE'], 'nsukey': ['ACgN4EOGWKWcDK2V4IMwEAgRH/RYv2Y7KS36rnPH9JEBBbxVvHKl+p3kUgV8l0z84Afm9AzHrjdqOwAcL7nsfxWCfnbdmiMZ/2XM23EEz8jLNN1vKAkbRlIoJVed+tGcYtXIX3v2UniWgLZi9jxLe8Dm/FsRt93iUBD37fYKki8CbRmoazL2v1bUeIu7J3aalo6c9MxIq4gKSbEAyvjypA==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: YhlDm44ce-HAePHa ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546688</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe9\xa6\x96\xe9\xa1\xb5]]></Content>\n<MsgId>22427555877913641</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546688'), ('MsgType', 'text'), ('Content', '首页'), ('MsgId', '22427555877913641')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546689</CreateTime><MsgType>text</MsgType><Content>https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff05f38a8a69fdb6&amp;redirect_uri=http%3a%2f%2f47.103.119.232%2fwechat%2findex&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=STATE#wechat_redirect</Content></xml>
+-- <QueryDict: {'code': ['0013oZi81rMANL1B56g81lfJi813oZiK'], 'state': ['STATE']}>
+=== {'access_token': '24_4Q6eGwrB3nKVoxUx3vHfU54RkjWRK6i0LdCoAkRH4_uTu1a86iNQ6ZoR6-KD0P03diV0X19JTWaXn5anIExNcQ', 'expires_in': 7200, 'refresh_token': '24__WJBqaAQMNemlFxtfZKsGwaUtFkoT8RH-WbHeFm3kMGpSIS6lvEukq68bxAsodkEgq3YIOh08oC6jJQNqdTuxw', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['0013oZi81rMANL1B56g81lfJi813oZiK'], 'state': ['STATE'], 'nsukey': ['SqEaZUQRkavsfnEmlyFJvVZSeefEfqVsvy0EZSg2WeddzIbZG9v0IQobO5AxiIJE44cEfbuFetP3Nb4amBUW/0MzCnx7Z0BSFPG6ny5afN/nmDIcgfEAdDk3KcFS/spwKehd/97HSTODrq9NENCBB15eYvD5a9bk2GFSm/z+ngN0t1L1PycU7OhUyCq1r8rLzDoLPk6edwnM+ytryQ+OTA==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: zhlDKi0gE-I ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546739</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a]]></Content>\n<MsgId>22427556414845305</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546739'), ('MsgType', 'text'), ('Content', '啊啊啊'), ('MsgId', '22427556414845305')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546739</CreateTime><MsgType>text</MsgType><Content>啊啊啊/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546741</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x97\xb7\xe5\x97\xb7\xe5\x97\xb7]]></Content>\n<MsgId>22427557183782634</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546741'), ('MsgType', 'text'), ('Content', '嗷嗷嗷'), ('MsgId', '22427557183782634')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546741</CreateTime><MsgType>text</MsgType><Content>嗷嗷嗷/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546779</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x94\x89\xe5\x94\x89\xe5\x94\x89]]></Content>\n<MsgId>22427557052928273</MsgId>\n</xml>'[23/Aug/2019 07:52:59] "POST /wechat?signature=fd50268585f4c0b95a96ab50c37f2d93ad1e410d&timestamp=1566546779&nonce=498475333&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 237
+[23/Aug/2019 07:53:23] "POST /wechat?signature=677f1cdb71565a54e1c18f2e21a23acb0dbe6749&timestamp=1566546803&nonce=1383423718&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 237
+[23/Aug/2019 07:53:30] "POST /wechat?signature=571328ea705aa113415c2d011bda3cc7a02bafd9&timestamp=1566546810&nonce=1158040143&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 234
+[23/Aug/2019 07:53:47] "GET /?nsukey=NfHlAG5rsCOhy9%2BqIP93q2O%2Bj6CeR3NAF36yDtMe3T5WH9OQ4B2C1ESmBGNlR6dO3yix7XqIZX8VKwXlIz4fBpZdFhBa7QLFpCa0BP0%2BkI17EfmoY5pjbFHv9jXtP01ocSNfmCbLzLgrzeB5vbnI3HTIz%2F5cdpu0fdtprscjDNw5%2FlzB8M4jDTS8YE4%2FKrswov7ipHCl9sOqs%2FY%2FiXYiVw%3D%3D HTTP/1.1" 200 457
+[23/Aug/2019 07:53:57] "POST /wechat?signature=ea5db60a55cb910043e7a954f2d3f3f5e5e3afd3&timestamp=1566546837&nonce=809764589&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 268
+[23/Aug/2019 07:54:27] "POST /wechat?signature=6f84d2e4426cbc6d8f88c48ba96ef7cbb32b0dac&timestamp=1566546867&nonce=1642147309&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 231
+[23/Aug/2019 07:54:55] "POST /wechat?signature=3f808444769d192521f1e95f23b549ea171cf03a&timestamp=1566546895&nonce=1905875503&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[23/Aug/2019 07:55:02] "GET /wechat/index?code=011Kt8gr1UR7rm0BDrfr1Me7gr1Kt8gi&state=STATE HTTP/1.1" 200 1768
+[23/Aug/2019 07:55:06] "GET /wechat/index?code=011Kt8gr1UR7rm0BDrfr1Me7gr1Kt8gi&state=STATE&nsukey=JKYYIzKxGjE6c7OlDhBhx7okZqoXdIll2GIvqmu1fj%2FVwbZ18pi76pRqt%2Bqs%2FsCIAD4KM7423YE502dqJRdpSBXnyvIhe2e4HuLOs20FuJO0cVLULlDoo6B0Tz6ccxJJ16UKZCn5%2FhidjL%2Bdt56Fvdb62uOhQInUHsMP9DfXhpvH2IMIeRht6YCQF1xQ8%2B73t7Fi58HdmfY9MZAmtOKRsg%3D%3D HTTP/1.1" 200 1768
+
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546779'), ('MsgType', 'text'), ('Content', '唉唉唉'), ('MsgId', '22427557052928273')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546779</CreateTime><MsgType>text</MsgType><Content>唉唉唉/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546803</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe4\xba\x8b\xe5\xae\x9e\xe4\xb8\x8a]]></Content>\n<MsgId>22427557630562384</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546803'), ('MsgType', 'text'), ('Content', '事实上'), ('MsgId', '22427557630562384')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546803</CreateTime><MsgType>text</MsgType><Content>事实上/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546810</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe6\x8c\x89\xe6\x97\xb6]]></Content>\n<MsgId>22427556656272572</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546810'), ('MsgType', 'text'), ('Content', '按时'), ('MsgId', '22427556656272572')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546810</CreateTime><MsgType>text</MsgType><Content>按时/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546837</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a\xe5\x95\x8a]]></Content>\n<MsgId>22427556091399637</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546837'), ('MsgType', 'text'), ('Content', 'a啊啊啊啊啊啊啊啊啊啊啊啊啊'), ('MsgId', '22427556091399637')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546837</CreateTime><MsgType>text</MsgType><Content>a啊啊啊啊啊啊啊啊啊啊啊啊啊/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546867</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x95\x8a]]></Content>\n<MsgId>22427556368274185</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546867'), ('MsgType', 'text'), ('Content', '啊'), ('MsgId', '22427556368274185')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546867</CreateTime><MsgType>text</MsgType><Content>啊/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566546895</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe9\xa6\x96\xe9\xa1\xb5]]></Content>\n<MsgId>22427557596766130</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566546895'), ('MsgType', 'text'), ('Content', '首页'), ('MsgId', '22427557596766130')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566546895</CreateTime><MsgType>text</MsgType><Content>https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff05f38a8a69fdb6&amp;redirect_uri=http%3a%2f%2f47.103.119.232%2fwechat%2findex&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=STATE#wechat_redirect</Content></xml>
+-- <QueryDict: {'code': ['011Kt8gr1UR7rm0BDrfr1Me7gr1Kt8gi'], 'state': ['STATE']}>
+=== {'access_token': '24_mZLdWpO0DMYRz9rGfpbBP7rE_u6x0GQC9MLBQi7AuPoSmfRRAfXjvoAuhzvljHh20dWJKJyCphxb0Ztngz0IJA', 'expires_in': 7200, 'refresh_token': '24_fo8S-aXq29f13N5wPAwFymLDj6W0xcz8T7PaTzwd6N0yN88aj0otwR9v1pN8EG6MvniS3VVTeFriAJVYTyfVnw', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011Kt8gr1UR7rm0BDrfr1Me7gr1Kt8gi'], 'state': ['STATE'], 'nsukey': ['JKYYIzKxGjE6c7OlDhBhx7okZqoXdIll2GIvqmu1fj/VwbZ18pi76pRqt+qs/sCIAD4KM7423YE502dqJRdpSBXnyvIhe2e4HuLOs20FuJO0cVLULlDoo6B0Tz6ccxJJ16UKZCn5/hidjL+dt56Fvdb62uOhQInUHsMP9DfXhpvH2IMIeRht6YCQF1xQ8+73t7Fi58HdmfY9MZAmtOKRsg==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: 2hlDZfyFe-diPPna ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566547974</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe9\xa6\x96\xe9\xa1\xb5]]></Content>\n<MsgId>22427574433977217</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566547974'), ('MsgType', 'text'), ('Content', '首页'), ('MsgId', '22427574433977217')]))])[23/Aug/2019 08:12:55] "POST /wechat?signature=bace4aaae93468d6abc892e9a2f361831c97991f&timestamp=1566547975&nonce=444422975&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[23/Aug/2019 08:13:00] "GET /wechat/index?code=0817Ktfa1P3woO1cJEfa1Pwtfa17Ktfr&state=STATE&nsukey=abQIq5biSJTfi6QCsxcJsQZiA9cmxgT0NnwMsmEwPNTEzLZTdgReqeN65%2FotFnqNyYbih3j9YVa8W4jseffGHDMCJd5uWvVafaeVf3csUfszGWPVDcSVSRlIuHEN8Zn%2FiJwcNCaLtloOMViRCWX29GYwF7pJDArPtuvkYAoeXxLvIoBA4f%2FZO33DYNgOdlaR27Q2vJqzhmvL3Dbj1sVHlg%3D%3D HTTP/1.1" 200 1768
+[23/Aug/2019 08:13:01] "GET /favicon.ico HTTP/1.1" 404 77
+[23/Aug/2019 08:13:08] "GET /wechat/index?code=061PlowJ0p99a92CcWxJ0KN4wJ0Plowy&state=STATE&nsukey=T7YjuY8TrIo89LRcmx7OJlnNu1CrnIEsJUuiWbTX76Oe4gR4dIkN6YRhzB2bwqadNl6C%2BVzF%2BLAAr%2F%2FT5N4EPucLensHMIQUlkREyAn4rsXp0Je%2B%2FnJaILtUaCHFVI3GxfqNK60lddWWEqU7jbJlDxaEqhrtFo9XHxpbc0%2FraUmD%2B1nqs5J1dVuOU%2BCR3vNTwskAWPR3Lfs6qpir3VQOkA%3D%3D HTTP/1.1" 200 1768
+[23/Aug/2019 08:13:09] "GET /favicon.ico HTTP/1.1" 404 77
+[23/Aug/2019 10:30:16] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 10:52:22] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 11:22:22] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 11:31:44] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 12:05:38] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 12:44:08] "HEAD /robots.txt HTTP/1.0" 404 77
+[23/Aug/2019 13:16:17] "GET / HTTP/1.1" 200 458
+[23/Aug/2019 13:44:45] "GET / HTTP/1.0" 200 458
+[23/Aug/2019 14:05:32] "GET / HTTP/1.0" 200 457
+[23/Aug/2019 14:05:32] code 400, message Bad request version ('À\x14À')
+[23/Aug/2019 14:05:32] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Aug/2019 14:20:48] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 77
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 54739)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[23/Aug/2019 16:23:07] "GET / HTTP/1.0" 200 456
+[23/Aug/2019 16:56:00] "GET / HTTP/1.1" 200 459
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[23/Aug/2019 16:56:00] "GET / HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('104.238.217.123', 4603)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[23/Aug/2019 16:56:01] "GET /http%3A%2F%2Fwww%2Ejiujue%2Eshop%2F HTTP/1.1" 404 77
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[23/Aug/2019 16:56:01] "GET /http%3A%2F%2Fwww%2Ejiujue%2Eshop%2F HTTP/1.1" 500 59
+----------------------------------------
+Exception happened during processing of request from ('104.238.217.123', 4617)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 332, in send_headers
+    self.send_preamble()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 252, in send_preamble
+    self._write(('HTTP/%s %s\r\n' % (self.http_version,self.status)).encode('iso-8859-1'))
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 453, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib/python3.6/socketserver.py", line 803, in write
+    self._sock.sendall(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 116, in handle_error
+    super().handle_error()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 194, in handle_one_request
+    handler.run(self.server.get_app())
+  File "/usr/lib/python3.6/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 111, in close
+    super().close()
+  File "/usr/lib/python3.6/wsgiref/simple_server.py", line 35, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+----------------------------------------
+[23/Aug/2019 16:57:21] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 77
+[23/Aug/2019 16:57:26] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+[23/Aug/2019 16:57:26] " PpTi4 " 400 -
+[23/Aug/2019 16:57:26] code 400, message Bad request syntax ('\x05\x01\x00')
+[23/Aug/2019 16:57:26] " " 400 -
+[23/Aug/2019 17:07:14] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 18:06:59] "GET / HTTP/1.0" 200 458
+[23/Aug/2019 18:36:47] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 77
+[23/Aug/2019 18:36:47] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:48] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:49] "GET /pma/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:49] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:50] "GET //phpmyadmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:50] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:51] "GET /mysql/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:51] "GET /scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:52] "GET /mysqladmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:52] "GET /MySQL/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:53] "GET /pHpMyAdMiN/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:54] "GET /web/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:54] "GET /configuracion/phpmyadmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:55] "GET /_phpMyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:55] "GET /admin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:56] "GET /websql/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:56] "GET /db/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:57] "GET /sqladmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:57] "GET /phpMyAdmin2/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:58] "GET /php-my-admin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:59] "GET /php/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:36:59] "GET /admin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:00] "GET /php/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:01] "GET /phpmyadmin/scripts/setup.php/index.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:01] "GET /phpmy/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:02] "GET /phpmyadmin.box25/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:02] "GET /admincooptel/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:03] "GET /pyaniste/mysqladmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:04] "GET /phpMyAdmin-2.8.0.4/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:04] "GET /alt/sqladmin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:05] "GET /PMA/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:06] "GET /phpmy-admin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:06] "GET /php-admin/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:07] "GET /phpMyAdmin-2.8.2/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:07] "GET /phpMyAdmin-2.8.1/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:08] "GET /phpMyAdmin-2.8.0/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:09] "GET /phpMyAdmin-2.6.3/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:09] "GET /phpMyAdmin-2.6.4/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:10] "GET /phpMyAdmin-2.7.0/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:10] "GET /phpMyAdmin-2.5.6/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 18:37:11] "GET /phpMyAdmin-2.5.7/scripts/setup.php HTTP/1.1" 404 77
+[23/Aug/2019 19:04:29] "GET / HTTP/1.1" 200 456
+[23/Aug/2019 20:45:45] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 21:04:20] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 21:31:16] "GET / HTTP/1.1" 200 457
+[23/Aug/2019 23:46:02] "GET / HTTP/1.1" 200 458
+----------------------------------------
+Exception happened during processing of request from ('191.17.104.106', 37195)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Aug/2019 00:02:24] code 400, message Bad request syntax ("145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==")
+[24/Aug/2019 00:02:24] "145.ll|'|'|SGFjS2VkX0Q0OTkwNjI3|'|'|WIN-JNAPIER0859|'|'|JNapier|'|'|19-02-01|'|'||'|'|Win 7 Professional SP1 x64|'|'|No|'|'|0.7d|'|'|..|'|'|AA==|'|'|112.inf|'|'|SGFjS2VkDQoxOTIuMTY4LjkyLjIyMjo1NTUyDQpEZXNrdG9wDQpjbGllbnRhLmV4ZQ0KRmFsc2UNCkZhbHNlDQpUcnVlDQpGYWxzZQ==12.act|'|'|AA==" 400 -
+[24/Aug/2019 00:21:39] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 77
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 48874)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Aug/2019 00:51:28] "GET / HTTP/1.1" 200 458
+[24/Aug/2019 01:02:51] "GET / HTTP/1.1" 200 457
+[24/Aug/2019 02:22:18] "GET / HTTP/1.1" 200 456
+[24/Aug/2019 02:44:47] "GET / HTTP/1.1" 200 456
+[24/Aug/2019 03:18:09] "POST /wechat?signature=f6fe93ee326ec988dd9e5eb37c4f6d2ef6d5a1c4&timestamp=1566616689&nonce=473330313&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 234
+[24/Aug/2019 03:18:09] "POST /wechat?signature=d7b5ab45369ed8c6be6186433fa4cadef039f421&timestamp=1566616689&nonce=731805334&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 234
+[24/Aug/2019 03:31:40] "GET / HTTP/1.1" 200 457
+[24/Aug/2019 03:37:12] "GET / HTTP/1.1" 200 459
+[24/Aug/2019 05:13:06] "GET / HTTP/1.0" 200 455
+[24/Aug/2019 06:07:56] "GET / HTTP/1.1" 200 457
+[24/Aug/2019 06:13:33] "GET / HTTP/1.0" 200 458
+[24/Aug/2019 06:47:05] "GET / HTTP/1.0" 200 458
+[24/Aug/2019 07:49:28] "GET / HTTP/1.0" 200 457
+[24/Aug/2019 08:21:35] "GET / HTTP/1.1" 200 458
+[24/Aug/2019 08:30:21] "GET / HTTP/1.1" 200 458
+[24/Aug/2019 09:14:22] "GET / HTTP/1.1" 200 458
+[24/Aug/2019 10:22:19] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 77
+----------------------------------------
+Exception happened during processing of request from ('80.82.70.187', 48973)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 171, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('61.219.11.153', 61969)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 169, in handle
+    self.handle_one_request()
+  File "/usr/local/lib/python3.6/dist-packages/django/core/servers/basehttp.py", line 179, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[24/Aug/2019 11:40:02] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 77
+[24/Aug/2019 12:47:17] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.1" 200 1768
+[24/Aug/2019 12:47:18] "GET /favicon.ico HTTP/1.1" 404 77
+[24/Aug/2019 12:47:47] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.0" 200 1768
+
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566547975</CreateTime><MsgType>text</MsgType><Content>https://open.weixin.qq.com/connect/oauth2/authorize?appid=wxff05f38a8a69fdb6&amp;redirect_uri=http%3a%2f%2f47.103.119.232%2fwechat%2findex&amp;response_type=code&amp;scope=snsapi_userinfo&amp;state=STATE#wechat_redirect</Content></xml>
+-- <QueryDict: {'code': ['0817Ktfa1P3woO1cJEfa1Pwtfa17Ktfr'], 'state': ['STATE'], 'nsukey': ['abQIq5biSJTfi6QCsxcJsQZiA9cmxgT0NnwMsmEwPNTEzLZTdgReqeN65/otFnqNyYbih3j9YVa8W4jseffGHDMCJd5uWvVafaeVf3csUfszGWPVDcSVSRlIuHEN8Zn/iJwcNCaLtloOMViRCWX29GYwF7pJDArPtuvkYAoeXxLvIoBA4f/ZO33DYNgOdlaR27Q2vJqzhmvL3Dbj1sVHlg==']}>
+=== {'access_token': '24_mNu1pWncV3ERhc70_mHSwy93Ek0SWlNqg0Vee565dma-YVUHBqwRCjs15Nn8OoA-5F3pn1zFuVK-v8TVtW6kisGC70jv9V3DjAq7W_mx7yI', 'expires_in': 7200, 'refresh_token': '24_kfkuZY8bpVA2tGSH_o5ZOswHih1sW5gaTcTVb4KDXk5Nbpo-nBe6GRF0RcjpBep9TfQ_ju0M2CjbGhJkdYk-cMk6BpsF53x3-Mz6dxVTzns', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['061PlowJ0p99a92CcWxJ0KN4wJ0Plowy'], 'state': ['STATE'], 'nsukey': ['T7YjuY8TrIo89LRcmx7OJlnNu1CrnIEsJUuiWbTX76Oe4gR4dIkN6YRhzB2bwqadNl6C+VzF+LAAr//T5N4EPucLensHMIQUlkREyAn4rsXp0Je+/nJaILtUaCHFVI3GxfqNK60lddWWEqU7jbJlDxaEqhrtFo9XHxpbc0/raUmD+1nqs5J1dVuOU+CR3vNTwskAWPR3Lfs6qpir3VQOkA==']}>
+=== {'access_token': '24__WJBqaAQMNemlFxtfZKsG5sRZ21jqXhgmz7YJH9h3gnDvTqzB9YAZg3drhSn7FPEXMpI_CDsrWnXIbludgPCqX29Hhba5tEUfA3LlXj97yc', 'expires_in': 7200, 'refresh_token': '24_-pu3lPhVbr9qDpd5-qnggiCrwutD0CSNVPoPv4_5j0FKXkgWqSqzH3VXW0mhPGJISUzjPB3ot21mdCM5liTXruwh5q8x3DQCuijJ4lhP1kc', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566616689</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\xae\xbf\xe8\x88\x8d]]></Content>\n<MsgId>22428556149149893</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566616689'), ('MsgType', 'text'), ('Content', '宿舍'), ('MsgId', '22428556149149893')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566616689</CreateTime><MsgType>text</MsgType><Content>宿舍/::)</Content></xml>
+********** have post to connect---
+88888888 b'<xml><ToUserName><![CDATA[gh_edce9da505a1]]></ToUserName>\n<FromUserName><![CDATA[oWKj1wt-WG9A5hYSWt6e78pVVK2E]]></FromUserName>\n<CreateTime>1566616689</CreateTime>\n<MsgType><![CDATA[text]]></MsgType>\n<Content><![CDATA[\xe5\x93\x88\xe5\x93\x88]]></Content>\n<MsgId>22428556092127353</MsgId>\n</xml>'
+/n/n/n/n------------------------
+request xml_dict: OrderedDict([('xml', OrderedDict([('ToUserName', 'gh_edce9da505a1'), ('FromUserName', 'oWKj1wt-WG9A5hYSWt6e78pVVK2E'), ('CreateTime', '1566616689'), ('MsgType', 'text'), ('Content', '哈哈'), ('MsgId', '22428556092127353')]))])
+response xml str: <?xml version="1.0" encoding="utf-8"?>
+<xml><ToUserName>oWKj1wt-WG9A5hYSWt6e78pVVK2E</ToUserName><FromUserName>gh_edce9da505a1</FromUserName><CreateTime>1566616689</CreateTime><MsgType>text</MsgType><Content>哈哈/::)</Content></xml>
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'access_token': '24__Rgd5MvCEOc3nGYo4FyEGWkiozr6dJQPXZQFKNJVz1ABuJitrHNwUraRlBc_h1fFc7SOOidr6hgOfYb-6BM-Q9le-ePNZelOCSnxtO984Kc', 'expires_in': 7200, 'refresh_token': '24_RGCrWbIegZDkoX9vYn9l6lowaKYRg9uLmJ9pU_W6R5QyWrZMrMo0FmG6O1F0T97SG_dkXqwMhUMOWZBZKgprND9EOkTBctMVSmCJM1if80w', 'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'scope': 'snsapi_userinfo'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: xJLD5ZyFe-jxuE9 ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: xJLDY24ce-YrkTwa ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}[24/Aug/2019 12:47:52] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.1" 200 1768
+[24/Aug/2019 12:47:53] "GET /favicon.ico HTTP/1.1" 404 77
+[24/Aug/2019 12:47:56] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.1" 200 1768
+[24/Aug/2019 12:47:59] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.1" 200 1768
+[24/Aug/2019 12:48:20] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.1" 200 1768
+[24/Aug/2019 12:48:29] "GET /wechat/index?code=011uBaAD1MERD40lc5CD1Nu9AD1uBaAt&state=STATE&nsukey=MVUMMF6pWO4yUsCWNAETlKURjjl%2BR2vDZY9Zwti83FwFVSDs0gAw2YdGHm%2B8Zk%2FaahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV%2BwEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy%2FOsyV1nlPtynrtKsvm5F%2F3PPo6002w4yf3yOoCUhvw%3D%3D HTTP/1.0" 200 1768
+
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: xJLDS.wgE-g_tLPA ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: xJLDAa0gE-JhC1BA ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: XJLDbZyFe-d ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+-- <QueryDict: {'code': ['011uBaAD1MERD40lc5CD1Nu9AD1uBaAt'], 'state': ['STATE'], 'nsukey': ['MVUMMF6pWO4yUsCWNAETlKURjjl+R2vDZY9Zwti83FwFVSDs0gAw2YdGHm+8Zk/aahFrSjdBCQ1rFUiVIGUX383W9FohYebkJYlmQWH1tpu5bkoiUXEZSg1ESpBFpAaJAD55FV+wEQw53ankKYmXWkIMxbYZ9wUTDB9Mwqfikrxy/OsyV1nlPtynrtKsvm5F/3PPo6002w4yf3yOoCUhvw==']}>
+=== {'errcode': 40163, 'errmsg': 'code been used, hints: [ req_id: XJLDq6yFe-kFJTvA ]'}
+--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': []}
+<--> obtain user info: {'openid': 'oWKj1wt-WG9A5hYSWt6e78pVVK2E', 'nickname': 'é\x85\x92è§\x89', 'sex': 1, 'language': 'zh_CN', 'city': '未知/未填写', 'province': 'Bengo', 'country': 'Angola', 'headimgurl': 'http://thirdwx.qlogo.cn/mmopen/vi_32/MfMS9lfbJg6IkQhKuQG2WdOhDWggmuAdg8jk33H7EpaenvHNOcPDds96P6BQpWQIiauvz34Z70ia3onMibicyaBXrw/132', 'privilege': [], 'headimgurl_size': '132'}
+[24/Aug/2019 13:23:53] "GET /?nsukey=CpxLazU%2FMWdtWNfVOfiaso8uhPrq1brITIZsezu6BgtLO%2ByjRVpi8HyTxNPQApROCGDAoDJsY574258Tnak9JE5WDjrXKQYPBHJ4Dc9FADY6rdlNSdY%2B7L7SxgMLuY9iCEWnaU2iw%2FwfEC53vs%2F6FFWKDd4NK%2Brcg2IKqfE1JZC8XieiC3FALhJshf1Vpn4t HTTP/1.1" 200 465
+[24/Aug/2019 13:24:10] "POST /wechat?signature=cb00aaa04f01fe8bfe07269cdf784d898c248fae&timestamp=1566653050&nonce=1457759510&openid=oWKj1wt-WG9A5hYSWt6e78pVVK2E HTTP/1.1" 200 443
+[24/Aug/2019 13:24:21] "GET /wechat/index?code=021r7054287VRP0PJ3442ZvZ442r705i&state=STATE&nsukey=caYJBwmIcJRkwHgo%2FSE3hLyjT3ueRdJ78cx1AB%2Bo%2BSfzsighxUszo983LQxH05cNsa6Wz%2BePt%2FbPzZ7p4Z4dYLl%2FYF3%2FRQIxHblrFEIegYNo%2BcORJqcvNRIYDveJkOl8T6JOLxYdckRzrYRXXa4WRhqfGbWbMLo9QZM1WItVBzII5TLeucqMV56tZOeyST%2B0Oago2I82Z9Yntgpn0zeIkA%3D%3D HTTP/1.1" 200 1775
+[24/Aug/2019 13:24:21] "GET /favicon.ico HTTP/1.1" 404 77

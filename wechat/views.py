@@ -192,6 +192,11 @@ def index(request):
             if user_dict_data[key] == '':
                 user_dict_data[key] = '未知/未填写'
 
+            if key== 'nickname':
+                user_dict_data[key] =  user_dict_data[key].encode('iso-8859-1').decode('utf-8')
+
+            if key== 'sex':
+                user_dict_data[key] = '男' if  user_dict_data[key] == 1  else '女'
         print('<--> obtain user info:',user_dict_data)
         return render(request,'wechat/user-info.html',context={'user':user_dict_data})
 #
